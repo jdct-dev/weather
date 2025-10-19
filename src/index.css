@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(to right, #74ebd5, #acb6e5);
-  min-height: 100vh;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
