@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.weather-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+}
+.temp {
+  font-size: 64px;
+  font-weight: bold;
+}
+.weather-icon {
+  font-size: 80px;
+  color: #007bff;
+}
+.search-box input {
+  border-radius: 50px 0 0 50px;
+}
+.search-box button {
+  border-radius: 0 50px 50px 0;
+}
